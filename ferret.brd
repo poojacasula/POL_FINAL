@@ -74,403 +74,379 @@
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state1</text>
-        <uniqueID>2</uniqueID>
-        <dimension>
-            <x>1358</x>
-            <y>1550</y>
-        </dimension>
-    </node>
-    <node locked="false" doneState="false">
         <text>state2</text>
         <uniqueID>3</uniqueID>
         <dimension>
-            <x>1361</x>
-            <y>1662</y>
-        </dimension>
-    </node>
-    <node locked="false" doneState="false">
-        <text>state3</text>
-        <uniqueID>4</uniqueID>
-        <dimension>
-            <x>1355</x>
-            <y>1771</y>
+            <x>726</x>
+            <y>2296</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state4</text>
         <uniqueID>5</uniqueID>
         <dimension>
-            <x>1355</x>
-            <y>1881</y>
+            <x>720</x>
+            <y>2515</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state5</text>
         <uniqueID>6</uniqueID>
         <dimension>
-            <x>1355</x>
-            <y>1991</y>
+            <x>720</x>
+            <y>2625</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state6</text>
         <uniqueID>7</uniqueID>
         <dimension>
-            <x>1355</x>
-            <y>2101</y>
+            <x>720</x>
+            <y>2735</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state7</text>
         <uniqueID>8</uniqueID>
         <dimension>
-            <x>1355</x>
-            <y>2211</y>
+            <x>720</x>
+            <y>2845</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state8</text>
         <uniqueID>9</uniqueID>
         <dimension>
-            <x>1355</x>
-            <y>2321</y>
+            <x>720</x>
+            <y>2955</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state9</text>
         <uniqueID>10</uniqueID>
         <dimension>
-            <x>1355</x>
-            <y>2431</y>
+            <x>720</x>
+            <y>3065</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state10</text>
         <uniqueID>11</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>2541</y>
+            <x>715</x>
+            <y>3175</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state11</text>
         <uniqueID>12</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>2651</y>
+            <x>715</x>
+            <y>3285</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state12</text>
         <uniqueID>13</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>2761</y>
+            <x>715</x>
+            <y>3395</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state13</text>
         <uniqueID>14</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>2871</y>
+            <x>715</x>
+            <y>3505</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state14</text>
         <uniqueID>15</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>2981</y>
+            <x>715</x>
+            <y>3615</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state15</text>
         <uniqueID>16</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3091</y>
+            <x>715</x>
+            <y>3725</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state16</text>
         <uniqueID>17</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3201</y>
+            <x>715</x>
+            <y>3835</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state17</text>
         <uniqueID>18</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3311</y>
+            <x>715</x>
+            <y>3945</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state18</text>
         <uniqueID>19</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3421</y>
+            <x>715</x>
+            <y>4055</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state19</text>
         <uniqueID>20</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3531</y>
+            <x>715</x>
+            <y>4165</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state20</text>
         <uniqueID>21</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3641</y>
+            <x>715</x>
+            <y>4275</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state21</text>
         <uniqueID>22</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3751</y>
+            <x>715</x>
+            <y>4385</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state22</text>
         <uniqueID>23</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3861</y>
+            <x>715</x>
+            <y>4495</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state23</text>
         <uniqueID>24</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>3971</y>
+            <x>715</x>
+            <y>4605</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state24</text>
         <uniqueID>25</uniqueID>
         <dimension>
-            <x>1350</x>
-            <y>4081</y>
+            <x>715</x>
+            <y>4715</y>
         </dimension>
     </node>
     <node locked="false" doneState="true">
         <text>Done</text>
         <uniqueID>26</uniqueID>
         <dimension>
-            <x>1359</x>
-            <y>4191</y>
+            <x>724</x>
+            <y>4825</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state27</text>
         <uniqueID>28</uniqueID>
         <dimension>
-            <x>1067</x>
-            <y>1623</y>
+            <x>645</x>
+            <y>2310</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state28</text>
         <uniqueID>29</uniqueID>
         <dimension>
-            <x>1649</x>
-            <y>1700</y>
+            <x>1014</x>
+            <y>2334</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state29</text>
         <uniqueID>30</uniqueID>
         <dimension>
-            <x>1091</x>
-            <y>1826</y>
+            <x>456</x>
+            <y>2460</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state30</text>
         <uniqueID>31</uniqueID>
         <dimension>
-            <x>1668</x>
-            <y>1927</y>
+            <x>1033</x>
+            <y>2561</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state31</text>
         <uniqueID>32</uniqueID>
         <dimension>
-            <x>1108</x>
-            <y>2042</y>
+            <x>473</x>
+            <y>2676</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state32</text>
         <uniqueID>33</uniqueID>
         <dimension>
-            <x>1663</x>
-            <y>2131</y>
+            <x>1028</x>
+            <y>2765</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state33</text>
         <uniqueID>34</uniqueID>
         <dimension>
-            <x>1081</x>
-            <y>2240</y>
+            <x>446</x>
+            <y>2874</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state34</text>
         <uniqueID>35</uniqueID>
         <dimension>
-            <x>1736</x>
-            <y>2376</y>
+            <x>1101</x>
+            <y>3010</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state35</text>
         <uniqueID>36</uniqueID>
         <dimension>
-            <x>1099</x>
-            <y>2477</y>
+            <x>464</x>
+            <y>3111</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state36</text>
         <uniqueID>37</uniqueID>
         <dimension>
-            <x>1706</x>
-            <y>2598</y>
+            <x>1071</x>
+            <y>3232</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state37</text>
         <uniqueID>38</uniqueID>
         <dimension>
-            <x>1077</x>
-            <y>2690</y>
+            <x>442</x>
+            <y>3324</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state38</text>
         <uniqueID>39</uniqueID>
         <dimension>
-            <x>1688</x>
-            <y>2803</y>
+            <x>1053</x>
+            <y>3437</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state39</text>
         <uniqueID>40</uniqueID>
         <dimension>
-            <x>1069</x>
-            <y>2917</y>
+            <x>434</x>
+            <y>3551</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state40</text>
         <uniqueID>41</uniqueID>
         <dimension>
-            <x>1687</x>
-            <y>3028</y>
+            <x>1052</x>
+            <y>3662</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state41</text>
         <uniqueID>42</uniqueID>
         <dimension>
-            <x>1080</x>
-            <y>3125</y>
+            <x>445</x>
+            <y>3759</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state42</text>
         <uniqueID>43</uniqueID>
         <dimension>
-            <x>1728</x>
-            <y>3264</y>
+            <x>1093</x>
+            <y>3898</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state43</text>
         <uniqueID>44</uniqueID>
         <dimension>
-            <x>1073</x>
-            <y>3386</y>
+            <x>438</x>
+            <y>4020</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state44</text>
         <uniqueID>45</uniqueID>
         <dimension>
-            <x>1725</x>
-            <y>3492</y>
+            <x>1090</x>
+            <y>4126</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state45</text>
         <uniqueID>46</uniqueID>
         <dimension>
-            <x>1072</x>
-            <y>3582</y>
+            <x>437</x>
+            <y>4216</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state46</text>
         <uniqueID>47</uniqueID>
         <dimension>
-            <x>1628</x>
-            <y>3686</y>
+            <x>993</x>
+            <y>4320</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state47</text>
         <uniqueID>48</uniqueID>
         <dimension>
-            <x>1073</x>
-            <y>3816</y>
+            <x>438</x>
+            <y>4450</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state48</text>
         <uniqueID>49</uniqueID>
         <dimension>
-            <x>1705</x>
-            <y>3932</y>
+            <x>1070</x>
+            <y>4566</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state49</text>
         <uniqueID>50</uniqueID>
         <dimension>
-            <x>1087</x>
-            <y>4021</y>
+            <x>452</x>
+            <y>4655</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state50</text>
         <uniqueID>51</uniqueID>
         <dimension>
-            <x>1673</x>
-            <y>4128</y>
-        </dimension>
-    </node>
-    <node locked="false" doneState="false">
-        <text>state51</text>
-        <uniqueID>52</uniqueID>
-        <dimension>
-            <x>1355</x>
-            <y>1404</y>
+            <x>1038</x>
+            <y>4762</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
@@ -557,8 +533,8 @@
         <text>state68</text>
         <uniqueID>69</uniqueID>
         <dimension>
-            <x>470</x>
-            <y>1506</y>
+            <x>459</x>
+            <y>2052</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
@@ -581,193 +557,42 @@
         <text>state71</text>
         <uniqueID>72</uniqueID>
         <dimension>
-            <x>34</x>
-            <y>1657</y>
+            <x>393</x>
+            <y>1635</y>
         </dimension>
     </node>
-    <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>3</uniqueID>
-            <message>
-                <verb>NotePropertySet</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>07364f1e-8099-9aa3-2c4c-e72158e0eef4</transaction_id>
-                    <Selection>
-                        <value>dosage-unit0</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateComboBox</value>
-                    </Action>
-                    <Input>
-                        <value>mg/kg</value>
-                    </Input>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Review the problem to see the dosage unit.</hintMessage>
-            <hintMessage>Please select 'mg/kg' from the highlighted menu.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">dosage-unit0</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">mg/kg</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>Extract Extract</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>2</sourceID>
-        <destID>3</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>5</uniqueID>
-            <message>
-                <verb>NotePropertySet</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>ef57e7ce-f3fe-967b-fcbc-8998804e9cbd</transaction_id>
-                    <Selection>
-                        <value>informationWeight-lb</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateTextField</value>
-                    </Action>
-                    <Input>
-                        <value>1</value>
-                    </Input>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Review from the question prompt, what is the animal's weight?</hintMessage>
-            <hintMessage>Please answer '1' from the highlighted menu.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">informationWeight-lb</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateTextField</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>Extract Extract</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>3</sourceID>
-        <destID>4</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>7</uniqueID>
-            <message>
-                <verb>NotePropertySet</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>8336d52a-eb58-f462-4d20-326e54bf6e67</transaction_id>
-                    <Selection>
-                        <value>weight-unit-lb</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateComboBox</value>
-                    </Action>
-                    <Input>
-                        <value>lb</value>
-                    </Input>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Review from the question prompt, what is the first unit of animal's weight?</hintMessage>
-            <hintMessage>Please enter lb.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">weight-unit-lb</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">lb</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>Extract Extract</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>4</sourceID>
-        <destID>5</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
+    <node locked="false" doneState="false">
+        <text>state72</text>
+        <uniqueID>73</uniqueID>
+        <dimension>
+            <x>344</x>
+            <y>1750</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state73</text>
+        <uniqueID>74</uniqueID>
+        <dimension>
+            <x>268</x>
+            <y>1855</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state74</text>
+        <uniqueID>75</uniqueID>
+        <dimension>
+            <x>192</x>
+            <y>1960</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state75</text>
+        <uniqueID>76</uniqueID>
+        <dimension>
+            <x>116</x>
+            <y>2065</y>
+        </dimension>
+    </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
             <studentHintRequest></studentHintRequest>
@@ -2063,66 +1888,6 @@ algEval(input)
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>59</uniqueID>
-            <message>
-                <verb>SendNoteProperty</verb>
-                <properties>
-                    <MessageType>CorrectAction</MessageType>
-                    <Selection>
-                        <value>No_Selection</value>
-                    </Selection>
-                    <Action>
-                        <value>No_Action</value>
-                    </Action>
-                    <Input>
-                        <value>No_Value</value>
-                    </Input>
-                    <transaction_id>e9a71bf0-c14d-6514-65dc-f6566063302e</transaction_id>
-                </properties>
-            </message>
-            <buggyMessage>Incorrect, you may click the hint if you need help.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Buggy Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Selection</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Action</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Value</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>unnamed</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>2</sourceID>
-        <destID>28</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
             <uniqueID>62</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2176,66 +1941,6 @@ algEval(input)
         </rule>
         <sourceID>3</sourceID>
         <destID>29</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>64</uniqueID>
-            <message>
-                <verb>SendNoteProperty</verb>
-                <properties>
-                    <MessageType>CorrectAction</MessageType>
-                    <Selection>
-                        <value>No_Selection</value>
-                    </Selection>
-                    <Action>
-                        <value>No_Action</value>
-                    </Action>
-                    <Input>
-                        <value>No_Value</value>
-                    </Input>
-                    <transaction_id>e9a71bf0-c14d-6514-65dc-f6566063302e</transaction_id>
-                </properties>
-            </message>
-            <buggyMessage>Incorrect, you may click the hint if you need help.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Buggy Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Selection</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Action</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Value</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>unnamed</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>4</sourceID>
-        <destID>30</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -3503,67 +3208,6 @@ algEval(input)
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>1</uniqueID>
-            <message>
-                <verb>NotePropertySet</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>c8025585-ff51-7c1c-d281-e50e45a44a07</transaction_id>
-                    <Selection>
-                        <value>dosage-num0</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateTextField</value>
-                    </Action>
-                    <Input>
-                        <value>22</value>
-                    </Input>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Think about the information in the problem, what amount of drug should we used for animal?</hintMessage>
-            <hintMessage>Please enter %(dosage-num1)% in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">dosage-num0</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateTextField</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">22</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>Extract Extract</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>52</sourceID>
-        <destID>2</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
             <uniqueID>112</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -4167,66 +3811,6 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>119</uniqueID>
-            <message>
-                <verb>SendNoteProperty</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <Selection>
-                        <value>question-image</value>
-                    </Selection>
-                    <Action>
-                        <value>assignImageURL</value>
-                    </Action>
-                    <Input>
-                        <value>./Assets/Telazol.png</value>
-                    </Input>
-                    <transaction_id>e9a71bf0-c14d-6514-65dc-f6566063302e</transaction_id>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">question-image</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">assignImageURL</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">./Assets/Telazol.png</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>unnamed</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>69</sourceID>
-        <destID>52</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
             <uniqueID>202</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -4347,6 +3931,66 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
+            <uniqueID>206</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>Example3Text</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>S: Until 1984, Burkina Faso was called Obervolta</value>
+                    </Input>
+                    <transaction_id>355f70c3-e35a-694f-e384-04a5382b3b6f</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Example3Text</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">S: Until 1984, Burkina Faso was called Obervolta</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>71</sourceID>
+        <destID>72</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
             <uniqueID>208</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -4399,7 +4043,67 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
             <indicator>-1</indicator>
         </rule>
         <sourceID>72</sourceID>
-        <destID>69</destID>
+        <destID>73</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>59</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>No_Selection</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>No_Value</value>
+                    </Input>
+                    <transaction_id>e9a71bf0-c14d-6514-65dc-f6566063302e</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>Incorrect, you may click the hint if you need help.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">No_Selection</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">No_Action</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">No_Value</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>69</sourceID>
+        <destID>28</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -4407,19 +4111,201 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>206</uniqueID>
+            <uniqueID>3</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>07364f1e-8099-9aa3-2c4c-e72158e0eef4</transaction_id>
+                    <Selection>
+                        <value>dosage-unit0</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>mg/kg</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Review the problem to see the dosage unit.</hintMessage>
+            <hintMessage>Please select 'mg/kg' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">dosage-unit0</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">mg/kg</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>Extract Extract</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>69</sourceID>
+        <destID>3</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>64</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
                 <properties>
-                    <MessageType>InterfaceAction</MessageType>
+                    <MessageType>CorrectAction</MessageType>
                     <Selection>
-                        <value>Example3Text</value>
+                        <value>No_Selection</value>
                     </Selection>
                     <Action>
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>S: Until 1984, Burkina Faso was called Obervolta</value>
+                        <value>No_Value</value>
+                    </Input>
+                    <transaction_id>e9a71bf0-c14d-6514-65dc-f6566063302e</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>Incorrect, you may click the hint if you need help.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">No_Selection</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">No_Action</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">No_Value</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>3</sourceID>
+        <destID>30</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>7</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>8336d52a-eb58-f462-4d20-326e54bf6e67</transaction_id>
+                    <Selection>
+                        <value>weight-unit-lb</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>lb</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Review from the question prompt, what is the first unit of animal's weight?</hintMessage>
+            <hintMessage>Please enter lb.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">weight-unit-lb</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">lb</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>Extract Extract</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>3</sourceID>
+        <destID>5</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>211</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>Conjunction3Phrase</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>What you need to know about this is...</value>
                     </Input>
                     <transaction_id>355f70c3-e35a-694f-e384-04a5382b3b6f</transaction_id>
                 </properties>
@@ -4435,19 +4321,19 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
                 <Selection>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">Example3Text</matcherParameter>
+                        <matcherParameter name="single">Conjunction3Phrase</matcherParameter>
                     </matcher>
                 </Selection>
                 <Action>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">No_Action</matcherParameter>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
                     </matcher>
                 </Action>
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">S: Until 1984, Burkina Faso was called Obervolta</matcherParameter>
+                        <matcherParameter name="single">What you need to know about this is...</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
@@ -4458,8 +4344,188 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>71</sourceID>
-        <destID>72</destID>
+        <sourceID>73</sourceID>
+        <destID>74</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>225</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>id1</value>
+                    </Selection>
+                    <Action>
+                        <value>setLabels</value>
+                    </Action>
+                    <Input>
+                        <value>---, condition, background</value>
+                    </Input>
+                    <transaction_id>355f70c3-e35a-694f-e384-04a5382b3b6f</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">id1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">setLabels</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">---, Condition, Background, Evaluation</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>74</sourceID>
+        <destID>75</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>240</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>radio_button_2</value>
+                    </Selection>
+                    <Action>
+                        <value>setText</value>
+                    </Action>
+                    <Input>
+                        <value>Nucleus-Satellite</value>
+                    </Input>
+                    <transaction_id>a0f21667-8428-0b58-de09-511b688b2c09</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">radio_button_2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">setText</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Nucleus-Satellite</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>76</sourceID>
+        <destID>69</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>234</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>radio_button_1</value>
+                    </Selection>
+                    <Action>
+                        <value>setText</value>
+                    </Action>
+                    <Input>
+                        <value>Nucleus-Nucleus</value>
+                    </Input>
+                    <transaction_id>ee141e13-1c2d-4f62-ed3e-7c0299720907</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">radio_button_1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">setText</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">     Nucleus-Nucleus</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>75</sourceID>
+        <destID>76</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <productionRule opportunities="6">
@@ -4486,7 +4552,7 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
         <hintMessage>Please enter '10' in the highlighted field.</hintMessage>
         <hintMessage></hintMessage>
     </productionRule>
-    <productionRule opportunities="8">
+    <productionRule opportunities="6">
         <ruleName>Extract</ruleName>
         <productionSet>Extract</productionSet>
         <label>Extract Information</label>
@@ -4496,12 +4562,9 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
     </productionRule>
     <EdgesGroups ordered="true">
         <group name="retrieve weight info" ordered="false" reenterable="true">
-            <link id="7"/>
             <link id="9"/>
-            <link id="5"/>
+            <link id="7"/>
             <group name="retrieve dosage info" ordered="false" reenterable="true">
-                <link id="3"/>
-                <link id="1"/>
                 <link id="112"/>
                 <link id="116"/>
                 <link id="140"/>
@@ -4512,11 +4575,15 @@ N: According to an EMNID poll, many Europeans today believe that they are two di
                 <link id="193"/>
                 <link id="199"/>
                 <link id="186"/>
-                <link id="119"/>
                 <link id="202"/>
                 <link id="204"/>
+                <link id="206"/>
                 <link id="208"/>
-                <link id="206"/></group>
+                <link id="3"/>
+                <link id="211"/>
+                <link id="225"/>
+                <link id="240"/>
+                <link id="234"/></group>
         </group>
         <group name="retrieve concentration info" ordered="false" reenterable="true">
             <link id="15"/>
