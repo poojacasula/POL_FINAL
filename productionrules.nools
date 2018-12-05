@@ -1,0 +1,70 @@
+import("types.nools");
+
+// Some production rules for the Practical RST tutor
+
+
+//--------------------------------------------------------------------------------------------
+//
+// Functions
+//
+function removeDuplicates(l) {
+	var ret = [];
+	if (!(l instanceof Array) || l.length === 0) {
+		return l;
+	}
+	for (var i = 0; i < l.length; i++) {
+		if (ret.indexOf(l[i]) < 0) {
+			ret.push(l[i]);
+		}
+	}
+	return ret;
+}
+
+//--------------------------------------------------------------------------------------------
+//
+// Initializing working memory
+//
+// This rule does not require further work from you.
+//
+//--------------------------------------------------------------------------------------------
+rule bootstrap {
+	when {
+		b: Boolean b === true from true;
+	}
+	then {
+		assert(new TPA("Relation1", "UpdateTextField", relation1.name));
+		assert(new TPA("Definition1Text", "UpdateTextField", relation1.definition));
+		assert(new TPA("Example1Text", "UpdateTextField", relation1.exampleS));
+		assert(new TPA("Example1Text2", "UpdateTextField", relation1.exampleN));
+		assert(new TPA("Conjunction1Phrase", "UpdateTextField", relation1.conjunctionPhrase));
+        
+		assert(new TPA("Relation2", "UpdateTextField", relation2.name));
+		assert(new TPA("Definition2Text", "UpdateTextField", relation2.definition));
+		assert(new TPA("Example2Text", "UpdateTextField", relation2.exampleS));
+		assert(new TPA("Example2Text2", "UpdateTextField", relation2.exampleN));
+		assert(new TPA("Conjunction2Phrase", "UpdateTextField", relation2.conjunctionPhrase));	
+        
+		assert(new TPA("Relation3", "UpdateTextField", relation3.name));
+		assert(new TPA("Definition3Text", "UpdateTextField", relation3.definition));
+		assert(new TPA("Example3Text", "UpdateTextField", relation3.exampleS));
+		assert(new TPA("Example3Text2", "UpdateTextField", relation3.exampleN));
+		assert(new TPA("Conjunction3Phrase", "UpdateTextField", relation3.conjunctionPhrase));	
+        
+        assert(new TPA("id1", "setLabels", options1));	
+        assert(new TPA("radio_button_1", "setText", MultipleChoiceOptions.NS));	
+        assert(new TPA("radio_button_2", "setText", MultipleChoiceOptions.NN));
+        
+        assert(new TPA("Sentence1.2", "UpdateTextField", Sentence1));
+        assert(new TPA("Sentence2.2", "UpdateTextField", Sentence2));
+        assert(new TPA("Sentence1", "UpdateTextField", Sentence1));
+        assert(new TPA("Sentence2", "UpdateTextField", Sentence2));
+        //assert(new TPA("skills", "setVisible"));
+        
+		setProblemAttribute("use_backtracking", true);
+		halt();
+	}
+}
+
+
+
+

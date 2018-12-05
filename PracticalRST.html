@@ -1,6 +1,11 @@
 <html lang="en-US">
 <head>
 	<meta charset="utf-8">
+    <meta name="generator" content="Silex v2.2.5">
+    <!-- End of generator meta tag -->
+    <!--CSS-->
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/normalize.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/front-end.css" rel="stylesheet">
 	<title>Practical RST</title>
 <!--
 		<link rel="stylesheet" type="text/css" href="Assets/CTAT.css">
@@ -14,6 +19,7 @@
 	<script src="https://cdn.ctat.cs.cmu.edu/releases/latest/jquery.min.js"></script>
 	<script src="https://cdn.ctat.cs.cmu.edu/releases/latest/ctat.min.js"></script>
 	<script src="https://cdn.ctat.cs.cmu.edu/releases/latest/ctatloader.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/nools.js"></script>
 
 </head>
     <body>
@@ -41,6 +47,7 @@
                     <div id = 'Example1Text2' class = "size1 CTATTextField textboxwidth2"></div>
                     <div class = 'header3'>Conjunction Phrases:</div>
                     <div id="Conjunction1Phrase" class="size1 CTATTextField textboxwidth"></div>
+                    
                     
                     <!--<div id="Definition1" class="CTATTextArea textboxwidth header3"></div>
                     <div id="Definition1Text" class="CTATTextArea textboxwidth"></div>
@@ -110,9 +117,11 @@
                                 <h1>Your Task</h1>
                             </header>
                             <div style= 'background-color: white; margin-top: 20px; border-style: solid; border-color: gold; padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px;'>
-                            <p class = 'header4'> Identify the relation for the sentence pair: </p>
-                            <p class = 'header5'> A: In 2001, the Patriot Act was issued.</p>
-                            <p class = 'header5'> B: People have mixed feelings towards it.</p>
+                            <p class = 'header4-1'> Identify the relation for the sentence pair: </p>
+                                 <div id = 'Sentence1' class = 'header5 CTATTextField'></div> 
+                                 <div id = 'Sentence2' class = 'header5 CTATTextField'></div> 
+                            </div>
+                            <div id="skills" class="CTATSkillWindow">
                             </div>
                         </div>
                         
@@ -120,7 +129,7 @@
                             <header style = 'padding-bottom: 40px; padding-top: 10px;'>
                                 <h1>Step by Step </h1>
                             </header> 
-                            <p class = 'header4'style = 'margin-top: 20px;'> Lets try to solve this problem step by step!</p>
+                            <p class = 'header4-1'style = 'margin-top: 20px;'> Lets try to solve this problem step by step!</p>
                             <div style= 'background-color: white; margin-top: 20px; border-style: solid; border-color: gold; padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px;'>
                             <p class = 'header4'> Step 1: Which class/group do you think the relation will likely fall into? (In other words, what best describe the nature of this relation?)</p>
                             <p class = 'header4'> Please select from the drop down menu.</p>
@@ -155,12 +164,12 @@
                             <div style= 'background-color: white; border-style: solid; border-color: gold; margin-top: 20px; padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px;'>
                             <p class = 'header4'> Step 4: Now, what is the relations of these two sentences?</p>
                             <div class = 'row'>
-                            <div class = 'col-4' style= 'background-color: gainsboro; border-style: solid; border-color: gold; margin-top: 10px; margin-left: 50px;padding-top: 5px; padding-bottom: 10px;'>
-                                 <p class = 'header5'> In 2001, the Patriot Act was issued.</p>                               
+                            <div class = 'col-4' style= 'border-style: solid; border-color: gold; margin-top: 10px; margin-left: 50px;padding-top: 5px; padding-bottom: 10px;'>
+                                 <div id = 'Sentence1.2' class = 'size1 CTATTextField'></div>                               
                                 
                             </div>
-                            <div class = 'col-4' style= 'background-color: gainsboro; border-style: solid; border-color: gold; margin-top: 10px; margin-left: 80px; padding-top: 5px; padding-bottom: 10px;'>
-                                 <p class = 'header5'> People have mixed feelings towards it.</p>                               
+                            <div class = 'col-4' style= 'border-style: solid; border-color: gold; margin-top: 10px; margin-left: 80px; padding-top: 5px; padding-bottom: 10px;'>
+                                 <div id = 'Sentence2.2' class = 'size1 CTATTextField'></div>                             
                                 
                             </div>
                             <img src='black-arrow-curved-up.jpg' style = 'margin-left: 200px;' width = '200' height = "50">

@@ -189,6 +189,7 @@ h3 {
   margin: 2px;
   width: auto;
   height: auto;
+  margin-top: 20px;
 }
 .CTATSkillWindow--bar{
   max-width: 160px;
@@ -201,6 +202,16 @@ h3 {
   background: #669900;
 }
 
+.CTATSkillWindow--label {
+    margin-left: 10px;
+    overflow: hidden;
+    height: 1.5em;
+    text-align: left;
+    white-space: nowrap;
+    font-family: "Trebuchet MS";
+    font-size: 9pt;
+    color: deepskyblue;
+}
 
 .textboxwidth{
     width: 250px; 
@@ -224,7 +235,12 @@ h3 {
     font-family: "Trebuchet MS";
 }
 
-
+.header4-1{
+    font-family: "Trebuchet MS";
+    color: gold;
+    font-size: 17pt; 
+    border-style: hidden;
+}
 
 .header4{
     font-family: "Trebuchet MS";

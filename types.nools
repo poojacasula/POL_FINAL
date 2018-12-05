@@ -1,0 +1,86 @@
+// This file contains some possibly incomplete fact type definitions for the
+// Practical RST tutor
+//
+// The file contains all types that are needed, so no need to create new ones,
+// but the types that are provided may not have all the slots that are necessary.
+//
+
+define Relation {
+    title: null, 
+	name: null,
+    definition: null, 
+    exampleS: null, 
+    exampleN: null, 
+    conjunctionPhrase: null, 
+	constructor: function(t, n, S, N, P) {
+        this.title = t; 
+		this.name = n;
+		this.exampleS = "selectCross";
+		this.exampleN = s;
+		this.conjunctionPhrase = P;
+	}
+}
+
+
+define MCOptions {
+    NS: null, 
+    NN: null, 
+    constructor: function(x, y) {
+        this.NS = x; 
+        this. NN = y; 
+    }
+}
+
+
+
+define interfaceRow {
+	name: null,
+	iesStrains: null,
+	ieResult: null,
+	constructor: function(n, ies, ier) {
+		this.name = n;
+		this.iesStrains = ies;
+		this.ieResult = ier;
+	}
+}
+
+define interfaceElement {
+	name: null,
+	value: null,
+	constructor: function(n, v) {
+		this.name = n;
+		this.value = v;
+	}
+}
+
+define StudentValues {
+	selection: null,
+	action: null,
+	input: null,
+	constructor: function(s, a, i) {
+		this.selection = s;
+		this.action = a;
+		this.input = i;
+	}
+}
+
+define TPA {
+	selection: null,
+	action: null,
+	input: null,
+	constructor: function(s, a, i) {
+		this.selection = s;
+		this.action = a;
+		this.input = i;
+	}
+}
+
+// Assert a Hint fact for each hint you want in a step.
+define Hint {
+	precedence: 0,
+	msg: "",
+	constructor: function(m, optPrecedence) {
+		this.msg = m;
+		this.precedence = optPrecedence || 0;
+	}
+}
