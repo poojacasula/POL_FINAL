@@ -10,13 +10,16 @@ global relation2 = {title: "Relation 2", name: "Condition", definition: "Realiza
 
 global relation3 = {title: "Relation 3", name: "Evaluation", definition: "Realization of N depends on realization of S.", exampleS: "S: If you are over 21", exampleN: "N: You can drink alcohol in America.", conjunctionPhrase: "'Condition to make this happen is...', 'If this condition is met', 'If..'"};
 
+global options1 =['---', 'Progressive', 'Supplementing', 'Repeating'];
 
-global options1 =['---', 'Condition', 'Background', 'Evaluation'];
+global options2 =['---', 'Condition', 'Background', 'Evaluation'];
 
+global CorrectOption1 = 'Progressive'; 
 
-
-global MultipleChoiceOptions = {NN: "Nucleus-Nucleus", NS: "Nucleus-Satellite"};
+global MCO = {correctType: 1, NN: "Nucleus-Nucleus", NS: "Nucleus-Satellite"};
 
 global Sentence1 = "In 2001 the Patriot Act was issued.";
 
 global Sentence2 = "People have mixed feelings towards it.";
+
+

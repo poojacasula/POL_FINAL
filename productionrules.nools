@@ -51,13 +51,20 @@ rule bootstrap {
 		assert(new TPA("Conjunction3Phrase", "UpdateTextField", relation3.conjunctionPhrase));	
         
         assert(new TPA("id1", "setLabels", options1));	
-        assert(new TPA("radio_button_1", "setText", MultipleChoiceOptions.NS));	
-        assert(new TPA("radio_button_2", "setText", MultipleChoiceOptions.NN));
+        assert(new TPA("id2", "setLabels", options2));	
+        assert(new TPA("radio_button_1", "setText", MCO.NS));	
+        assert(new TPA("radio_button_2", "setText", MCO.NN));
         
         assert(new TPA("Sentence1.2", "UpdateTextField", Sentence1));
         assert(new TPA("Sentence2.2", "UpdateTextField", Sentence2));
         assert(new TPA("Sentence1", "UpdateTextField", Sentence1));
         assert(new TPA("Sentence2", "UpdateTextField", Sentence2));
+        assert(new MCOptions('radio_button_1', 1, MCO.NN));
+        assert(new MCOptions('radio_button_2', 2, MCO.NS));
+        assert(new Relation(relation1.title, relation1.name, relation1.defintion, relation1.exampleS, relation1.exampleN, relation1.conjunctionPhrase)); 
+        assert(new Relation(relation2.title, relation2.name, relation2.defintion, relation2.exampleS, relation2.exampleN, relation2.conjunctionPhrase));      
+        assert(new Relation(relation3.title, relation3.name, relation3.defintion, relation3.exampleS, relation3.exampleN, relation3.conjunctionPhrase)); 
+        assert(new ComboBox(false, false, false)); 
         //assert(new TPA("skills", "setVisible"));
         
 		setProblemAttribute("use_backtracking", true);
@@ -67,4 +74,67 @@ rule bootstrap {
 
 
 
+// Step1
+// IF there is a Step1 subgoal
+//    AND we have not chosen the class/group yet
+//  THEN
+//     select from the dropdown menu a choice for step 1
+//
 
+
+rule Step1 {
+	when {
+		r: Relation r.subgoal === "Step1"; 
+        cb: ComboBox !cb.comboBox1 {ieComboBox1: sel};
+		ie: interfaceElement ie.name == sel && ie.value ==null;
+	}
+	then {
+		if (checkSAI({selection: sel, action: "UpdateComboBox", input: CorrectOption1})) {	
+            modify(ie,'value', CorrectOption1);
+            modify(cb, "comboBox1", true);
+			halt();
+		} else {
+			backtrack();
+		}
+	}
+}
+
+
+
+
+/**rule selectFirstStrain {
+	when {
+		prob: Problem prob.subgoal === "selectCross" && !prob.firstStrainCurCross && 
+				prob.interfaceRows {interfaceRows: intRows};
+		s: Strain {name: s1};
+		exists(c: Cross s1 in c.strains);
+		intRow: interfaceRow intRow.name === intRows[0] {iesStrains: intRowStrains};
+		ie: interfaceElement !ie.value && ie.name in intRowStrains {name: selection};
+	}
+	then {
+		if (checkSAI({selection: selection, action: "UpdateTextField", input: s1})) {
+			modify(prob, "firstStrainCurCross", s1);
+			modify(ie, "value", s1);
+			halt();
+		} else {
+			backtrack();
+		}
+	}
+}*/
+
+/*rule Step3 {
+	when {
+		r: Relation r.subgoal === "Step3"; 
+        MC: MCOptions MC.correctType == MCO.correctType; 
+		ie: interfaceElement !ie.value;
+	}
+	then {
+		if (checkSAI({selection: MC.name, action: "UpdateRadioButton", input: s1})) {
+			modify(MC, "radio_button_1", s1);
+            modify(ie,'value', s1);
+			halt();
+		} else {
+			backtrack();
+		}
+	}
+}*/

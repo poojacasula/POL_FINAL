@@ -8,41 +8,47 @@
 define Relation {
     title: null, 
 	name: null,
+    subgoal: null, 
     definition: null, 
     exampleS: null, 
     exampleN: null, 
     conjunctionPhrase: null, 
-	constructor: function(t, n, S, N, P) {
+	constructor: function(t, n, d, S, N, P) {
         this.title = t; 
 		this.name = n;
-		this.exampleS = "selectCross";
-		this.exampleN = s;
+		this.subgoal = "Step1";
+        this.definition = d;
+        this.exampleS = S;
+		this.exampleN = N;
 		this.conjunctionPhrase = P;
 	}
 }
 
 
-define MCOptions {
-    NS: null, 
-    NN: null, 
-    constructor: function(x, y) {
-        this.NS = x; 
-        this. NN = y; 
+define ComboBox{
+    comboBox1: false, 
+    comboBox2: false, 
+    comboBox3: false, 
+    ieComboBox1: null, 
+    constructor: function(ieCombo){
+        this.comboBox1 = false; 
+        this.comboBox2 = false; 
+        this.comboBox3 = false; 
+        this.ieComboBox1 = ieCombo; 
     }
 }
 
-
-
-define interfaceRow {
-	name: null,
-	iesStrains: null,
-	ieResult: null,
-	constructor: function(n, ies, ier) {
-		this.name = n;
-		this.iesStrains = ies;
-		this.ieResult = ier;
-	}
+define MCOptions {
+    name: null, 
+    correctType: null, 
+    option: null,
+    constructor: function(n,z, x, y) {
+        this.name = n; 
+        this. correctType = z; 
+        this.option = x; 
+    }
 }
+
 
 define interfaceElement {
 	name: null,
