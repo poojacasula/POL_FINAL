@@ -1,0 +1,330 @@
+<!-- improvement:
+- avoid arbitrary order restriction
+- groups
+- answer range -->
+
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Practical RST</title>
+<!--
+		<link rel="stylesheet" type="text/css" href="Assets/CTAT.css">
+	-->
+	<link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/latest/CTAT.css">
+	<link rel="stylesheet" type="text/css" href="Assets/tutor.css">
+
+	<script src="https://cdn.ctat.cs.cmu.edu/releases/latest/jquery.min.js"></script>
+	<script src="https://cdn.ctat.cs.cmu.edu/releases/latest/ctat.min.js"></script>
+	<script src="https://cdn.ctat.cs.cmu.edu/releases/latest/ctatloader.js"></script>
+
+</head>
+
+<body>
+	<h1 align="center" style="color: dodgerblue; font-size: 350%;">Practical RST Tutor</h1>
+	<main class="CTATTutor">
+		<h3>Tutor</h3>
+
+		<section class="CTATProblemSolving">
+			<h3>Problem Solving</h3>
+            <row>
+            <section>
+			
+				<header>
+					<h1>Relation 1</h1>
+					<br>
+					<br>
+				</header>
+				<div id="problemcontext1" class="CTATTextArea"></div>
+					
+                </section>
+            <section>
+				<header>
+					<h1> What you know</h1>
+				</header>	
+				<div id="problemstatement1" class="CTATTextArea"></div>
+            </section>
+            <section>
+				<div>
+				<header>
+					<h1> Additional information</h1>
+				</header>
+				<div id="question-image" class="CTATImageButton" data-ctat-enabled="false"></div>
+				</div>
+            
+			</section>
+            
+            </row>
+			<section id="solution" class="CTATSolution">
+                <row>
+				<header>
+					<h1>Review and Extract</h1>
+					<p>What's the most important information in this problem?</p>
+				</header>
+				<div><br><br></div>
+
+				<!-- information given -->
+				<div class="grid-container">
+
+					<div class="grid-item" id="information">
+						<div class="flex grid-item">
+							<p>Step 1: Information provided from the question:</p>
+						</div>
+						<h1></h1>
+						<p>- dosage of the drug for the animal: <span id="information-dosage"><div class="CTATTextInput" id="dosage-num0" tabindex="1"></div>
+						<span>
+								<span id="dosage-unit0" class="CTATComboBox" tabindex="2">
+									<option>----</option>
+									<option>lb</option>
+									<option>oz</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</span>
+							</span>
+						</span></p>	
+						<p>- weight of the animal: <span id="information-weight-lb"><span class="CTATTextInput" id="informationWeight-lb" tabindex="3"></span>
+						<span>
+								<span id="weight-unit-lb" class="CTATComboBox" tabindex="4">
+									<option>----</option>
+									<option>lb</option>
+									<option>oz</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</span>
+							</span>
+						</span>
+						<span id="information-weight-oz"><span class="CTATTextInput" id="informationWeight-oz" tabindex="5"></span>
+						<span>
+								<span id="weight-unit-oz" class="CTATComboBox" tabindex="6">
+									<option>----</option>
+									<option>lb</option>
+									<option>oz</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</span>
+							</span>
+						</span></p>	
+
+						<p>- concentration of the drug: <span id="information-concentration"><span class="CTATTextInput" id="concentration-num" tabindex="7"></span>
+							<span>
+								<span id="concentration-unit" class="CTATComboBox" tabindex="8">
+									<option>----</option>
+									<option>lb</option>
+									<option>oz</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</span>
+							</span>
+						</span></p>
+					</div>
+
+				<header>
+					<h1>Step by Step</h1>
+					<p>Let's start doing the math step by step! </p>
+				</header>
+
+
+				</div>
+				<div><br><br></div>
+				<!-- question: convert animal weight into kilogram -->
+				<div class="flex grid-item">
+					<p>Step 2: Converting Unit for Animal's weight:</p>
+					<p>Pay attention to the unit of the dosage, does it align with unit of animals' weight? What unit might you want to convert to?</p>
+
+				</div>
+
+				<div class="flex1">
+					<div class="flex1-item">
+						<div class="CTATTextInput" id="animalweightgiven" tabindex="9"></div>
+					</div>
+					<div class="flex1-symbol">=</div>
+					<div class="flex1-item">
+						<div class="CTATTextInput" id="weight-lb-num" tabindex="10"></div>
+						<span>
+							<div id="weight-lb-unit" class="CTATComboBox" tabindex="11">
+								<option>----</option>
+								<option>lb</option>
+								<option>oz</option>
+								<option>kg</option>
+								<option>mg</option>
+								<option>mg/kg</option>
+								<option>mg/mL</option>
+							</div>
+						</span>
+					</div>
+					<div class="flex1-symbol">=</div>
+					<div class="flex1-item">
+						<div class="CTATTextInput" id="weight-kg-num" tabindex="12"></div>
+						<span>
+							<div id="weight-kg-unit" class="CTATComboBox" tabindex="13">
+								<option>----</option>
+								<option>lb</option>
+								<option>kg</option>
+								<option>oz</option>
+								<option>mg</option>
+								<option>mg/kg</option>
+								<option>mg/mL</option>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div><br><br></div>
+
+				<!-- question: dosage in milligram -->
+				<div class="flex grid-item">
+					<p>Step 3: Now you know the animals' weight, based on that, how much medicine in milligram(mg) should you use?</p>
+				</div>
+
+				<div class="flex1">
+					<div class="flex1-item">
+						<div>
+							<div class="CTATTextInput" id="weight-kg-num-2" tabindex="14"></div>
+							<span>
+								<div id="weight-kg-unit-2" class="CTATComboBox" tabindex="15">
+									<option>----</option>
+									<option>lb</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</div>
+							</span>
+						</div>
+						
+					</div>
+					<div class="flex1-symbol">X</div>
+					<div class="flex1-item">
+						<div class="">
+							<div class="CTATTextInput" id="dosage-num" tabindex="16"></div>
+							<span>
+								<div id="dosage-unit" class="CTATComboBox" tabindex="17">
+									<option>----</option>
+									<option>lb</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="flex1-symbol">=</div>
+					<div class="flex1-item">
+						<div class="CTATTextInput" id="dose-mg-num" tabindex="18"></div>
+						<span>
+							<div id="dose-mg-unit" class="CTATComboBox" tabindex="19">
+								<option>----</option>
+								<option>lb</option>
+								<option>kg</option>
+								<option>mg</option>
+								<option>mg/kg</option>
+								<option>mg/mL</option>
+							</div>
+						</span>
+					</div>
+				</div>
+
+				<div><br><br></div>
+				<!-- question: dosage in milliliter -->
+				<div class="flex grid-item">
+					<p>Step 4: According to the concentration, how much milliliters(ml) of the drug should be used?</p>
+				</div>
+
+
+				<div class="flex1">
+					<div class="flex1-item">
+						<div class="">
+							<div class="CTATTextInput" id="dose-mg-num-2" tabindex="20"></div>
+							<span>
+								<div id="dose-mg-unit-2" class="CTATComboBox" tabindex="21">
+									<option>----</option>
+									<option>lb</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="flex1-symbol">÷</div>
+					<div class="CTATTextInput" id="concentration-computing" tabindex="22"></div>
+							<span>
+								<div id="concentration-unit-computing" class="CTATComboBox" tabindex="23">
+									<option>----</option>
+									<option>lb</option>
+									<option>kg</option>
+									<option>mg</option>
+									<option>mg/kg</option>
+									<option>mg/mL</option>
+								</div>
+							</span>
+					<div class="flex1-symbol">=</div>
+					<div class="flex1-item">
+						<div class="CTATTextInput" id="dose-ml-num" tabindex="24"></div>
+						<span>
+							<div id="dose-ml-unit" class="CTATComboBox" tabindex="25">
+								<option>----</option>
+								<option>lb</option>
+								<option>kg</option>
+								<option>mg</option>
+								<option>mL</option>
+								<option>mg/kg</option>
+								<option>mg/mL</option>
+							</div>
+						</span>
+					</div>
+				</div>
+				<section>
+					<header>
+						<h1>Skills</h1>
+						<p>Watch your skills grow as you solve tutor problems.</p>
+					</header>
+					<div class="flexSkill">
+					<br>
+					<br>
+						<div class="CTATSkillWindow">
+						</div>
+					</div>
+				</section>
+            </row>
+			</section>
+            
+		</section>
+
+		<section class="CTATTools">
+			<section>
+				<header>
+					<h1>Hints</h1>
+					<p>If you are stucked, click the Hint for help. When you are finished, please click Done!</p>
+				</header>
+				<div>
+					<div class="CTATButtons">
+						<div class="CTATHintButton"></div>
+						<div class="CTATDoneButton"></div>
+					</div>
+					<div class="CTATHintWindow">
+					</div>
+				</div>
+			</section>
+
+				<!-- <section>
+					<header>
+						<h2>Skills</h2>
+						<p>Watch your skills grow as you solve tutor problems.</p>
+					</header>
+					<div class="CTATSkillWindow">
+					</div>
+				</section> -->
+			</section>
+
+		</main>
+	</body>
+	</html>

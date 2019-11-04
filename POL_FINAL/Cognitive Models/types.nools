@@ -1,0 +1,92 @@
+// This file contains some possibly incomplete fact type definitions for the
+// Practical RST tutor
+//
+// The file contains all types that are needed, so no need to create new ones,
+// but the types that are provided may not have all the slots that are necessary.
+//
+
+define Relation {
+    title: null, 
+	name: null,
+    subgoal: null, 
+    definition: null, 
+    exampleS: null, 
+    exampleN: null, 
+    conjunctionPhrase: null, 
+	constructor: function(t, n, d, S, N, P) {
+        this.title = t; 
+		this.name = n;
+		this.subgoal = "Step1";
+        this.definition = d;
+        this.exampleS = S;
+		this.exampleN = N;
+		this.conjunctionPhrase = P;
+	}
+}
+
+
+define ComboBox{
+    comboBox1: false, 
+    comboBox2: false, 
+    comboBox3: false, 
+    ieComboBox1: null, 
+    constructor: function(ieCombo){
+        this.comboBox1 = false; 
+        this.comboBox2 = false; 
+        this.comboBox3 = false; 
+        this.ieComboBox1 = ieCombo; 
+    }
+}
+
+define MCOptions {
+    name: null, 
+    correctType: null, 
+    option: null,
+    constructor: function(n,z, x, y) {
+        this.name = n; 
+        this. correctType = z; 
+        this.option = x; 
+    }
+}
+
+
+define interfaceElement {
+	name: null,
+	value: null,
+	constructor: function(n, v) {
+		this.name = n;
+		this.value = v;
+	}
+}
+
+define StudentValues {
+	selection: null,
+	action: null,
+	input: null,
+	constructor: function(s, a, i) {
+		this.selection = s;
+		this.action = a;
+		this.input = i;
+	}
+}
+
+define TPA {
+	selection: null,
+	action: null,
+	input: null,
+	constructor: function(s, a, i) {
+		this.selection = s;
+		this.action = a;
+		this.input = i;
+	}
+}
+
+// Assert a Hint fact for each hint you want in a step.
+define Hint {
+	precedence: 0,
+	msg: "",
+	constructor: function(m, optPrecedence) {
+		this.msg = m;
+		this.precedence = optPrecedence || 0;
+	}
+}
